@@ -68,7 +68,9 @@ html, body, .l-container {
   height: 100%; }
 
 .l-container {
-  padding: 20px; }
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 960px; }
 
 /* Modules */
 /* Tabs */
@@ -113,5 +115,15 @@ html, body, .l-container {
 
 .tab-content {
   padding: 1.5rem; }
+
+/* no-js fallback */
+.no-js .tabs-nav {
+  display: none; }
+
+.no-js .tab {
+  display: block;
+  margin-bottom: 1.5rem; }
+  .no-js .tab:last-child {
+    margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */

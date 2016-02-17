@@ -4,5 +4,7 @@ html, body, .l-container {
 }
 
 .l-container {
-  padding: 20px;
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 960px;
 }

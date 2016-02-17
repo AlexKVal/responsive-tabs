@@ -63,3 +63,15 @@
 .tab-content {
   padding: 1.5rem;
 }
+
+/* no-js fallback */
+.no-js {
+  .tabs-nav { display: none; }
+
+  .tab {
+    display: block;
+    margin-bottom: 1.5rem;
+
+    &:last-child { margin-bottom: 0; }
+  }
+}
