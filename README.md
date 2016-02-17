@@ -1,0 +1,2 @@
+- SCSS is used
+- if JS is turned off it gracefully degrades and shows all the content

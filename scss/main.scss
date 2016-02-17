@@ -1,0 +1,65 @@
+@import 'reset';
+@import 'base';
+@import 'layout';
+
+/* Modules */
+
+/* Tabs */
+.tabs-nav {
+  display: flex;
+}
+.tabs-nav-link {
+  flex: 1;
+  margin-right: 4px;
+  padding: 12px;
+  color: white;
+  background-color: #b3b3b3;
+  text-align-last: center;
+  transition: color 0.3s;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    color: #6d6d6d;
+  }
+
+  &.is-active {
+    color: #dc446e;
+    background-color: #e7e7e7;
+  }
+
+  /* small screens < 720px */
+  i, span {
+    line-height: 1; // TODO: maybe move out to parent
+    font-size: 18px;
+  }
+  span {
+    display: none;
+  }
+
+  /* normal and big screens */
+  @media all and (min-width: 720px) {
+    i {
+      margin-bottom: 12px;
+      font-size: 22px;
+    }
+    span {
+      display: block;
+    }
+  }
+}
+
+/* Tab */
+.tab {
+  display: none;
+  background-color: #e7e7e7;
+
+  &.is-active {
+    display: block;
+  }
+}
+.tab-content {
+  padding: 1.5rem;
+}

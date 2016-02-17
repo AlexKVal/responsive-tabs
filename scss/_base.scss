@@ -1,0 +1,19 @@
+/* Base */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  color: #6d6d6d;
+  background-color: white;
+  font: 14px/25px Oxygen, Helvetica, sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+}
+a {
+  text-decoration: none;
+}
