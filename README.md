@@ -7,10 +7,10 @@ It looks like:
 
 ![](result.png)
 
-On the small screens:
+On smaller screens:
 
 ![](result-small.png)
 
-And with JS disabled it gracefully degrages to:
+With JS disabled it gracefully degrades to:
 
 ![](result-nojs.png)
